@@ -4,7 +4,7 @@ Although CNNs are primarily designed for image analysis, they can also be adapte
 
 ## Methogology
 <div align='center'>
-<img src="Images/Methodology.png" alt="Methodology" width="500"/>
+<img src="Images/methodology.png" alt="Methodology" width="500"/>
 </div>
 
 ## Summary of Results
