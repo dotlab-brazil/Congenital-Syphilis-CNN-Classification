@@ -21,8 +21,31 @@ Although CNNs are primarily designed for image analysis, they can also be adapte
 <img src="Images/Tuned-Deepinsight-CNN_train_val_loss.png" alt="Training x validation loss of the Tuned-Deepinsight-CNN across epochs" width="400" style="display:inline-block;"/>
 </div>
 
-### Confusion matrix
+### Confusion matrix of the Tuned-Deepinsight-CNN
 <div align="center">
 <img src="Images/Tuned-Deepinsight-CNN_confusion_matrix.png" alt="Confusion matrix of the Tuned-Deepinsight-CNN" width="400"/>
 </div>
+
+## Steps to reproduce the experiments
+To reproduce the experiments, you can run the jupyter notebooks locally or on google collab. For that, please follow the steps below:
+
+1. Clone the repository
+```bash
+git clone https://github.com/dotlab-brazil/Congenital-Syphilis-CNN-Classification
+```
+
+2. Install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the jupyter notebooks
+
+**If you are in google colab:** 
+1. Upload the jupyter notebooks to your google drive
+2. Open the jupyter notebooks in google collab
+3. Install the required libraries
+```bash	
+!pip install -r requirements.txt
+```	
 
