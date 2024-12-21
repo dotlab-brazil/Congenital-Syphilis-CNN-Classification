@@ -44,8 +44,14 @@ pip install -r requirements.txt
 **If you are in google colab:** 
 1. Upload the jupyter notebooks to your google drive
 2. Open the jupyter notebooks in google collab
-3. Install the required libraries
+3. Mount your google drive
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+3. Install the required libraries (replace the path with the path where the requirements.txt is located in your drive)
 ```bash	
-!pip install -r requirements.txt
+!pip install -r /content/drive/MyDrive/~/requirements.txt
 ```	
+4. Run the jupyter notebooks
 
