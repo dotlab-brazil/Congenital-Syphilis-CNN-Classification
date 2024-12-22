@@ -29,17 +29,23 @@ Although CNNs are primarily designed for image analysis, they can also be adapte
 ## Steps to reproduce the experiments
 To reproduce the experiments, you can run the jupyter notebooks locally or on google collab. For that, please follow the steps below:
 
-1. Clone the repository
+1. Clone this  repository
 ```bash
 git clone https://github.com/dotlab-brazil/Congenital-Syphilis-CNN-Classification
 ```
+2. Clone the repositories of each converter for tabular data into images
+```bash
+git clone https://github.com/alok-ai-lab/pyDeepInsight
+git clone https://github.com/zhuyitan/IGTD
+git clone https://github.com/omidbazgirTTU/REFINED
+```
 
-2. Install the requirements
+3. Install the requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the jupyter notebooks
+4. Run the jupyter notebooks
 
 **If you are in google colab:** 
 1. Upload the jupyter notebooks to your google drive
@@ -49,9 +55,10 @@ pip install -r requirements.txt
 from google.colab import drive
 drive.mount('/content/drive')
 ```
-3. Install the required libraries (replace the path with the path where the requirements.txt is located in your drive)
+4. Clone the repos for each technique
+5. Install the required libraries (replace the path with the path where the requirements.txt is located in your drive)
 ```bash	
 !pip install -r /content/drive/MyDrive/~/requirements.txt
 ```	
-4. Run the jupyter notebooks
+6. Run the jupyter notebooks
 
