@@ -4,26 +4,26 @@ Although CNNs are primarily designed for image analysis, they can also be adapte
 
 ## Methogology
 <div align='center'>
-<img src="Images/methodology.png" alt="Methodology" width="900"/>
+<img src="images/methodology.png" alt="Methodology" width="900"/>
 </div>
 
 ## Summary of Results
 
 ### Results of the Basic CNNs
-![Results of the Basic CNNs](Images/basic_cnns.png)
+![Results of the Basic CNNs](images/basic_cnns.png)
 ### Results of the Tuned CNN
-![Results of the Tuned CNN](Images/tuned_cnns.png)
+![Results of the Tuned CNN](images/tuned_cnns.png)
 
 ### Training x validation accuracy and loss of the Tuned-Deepinsight-CNN across epochs
 
 <div align="center">
-<img src="Images/Tuned-Deepinsight-CNN_train_val_acc.png" alt="Training x validation accuracy of the Tuned-Deepinsight-CNN across epochs" width="400" style="display:inline-block; margin-right: 10px;"/>
-<img src="Images/Tuned-Deepinsight-CNN_train_val_loss.png" alt="Training x validation loss of the Tuned-Deepinsight-CNN across epochs" width="400" style="display:inline-block;"/>
+<img src="images/Tuned-Deepinsight-CNN_train_val_acc.png" alt="Training x validation accuracy of the Tuned-Deepinsight-CNN across epochs" width="400" style="display:inline-block; margin-right: 10px;"/>
+<img src="images/Tuned-Deepinsight-CNN_train_val_loss.png" alt="Training x validation loss of the Tuned-Deepinsight-CNN across epochs" width="400" style="display:inline-block;"/>
 </div>
 
 ### Confusion matrix of the Tuned-Deepinsight-CNN
 <div align="center">
-<img src="Images/Tuned-Deepinsight-CNN_confusion_matrix.png" alt="Confusion matrix of the Tuned-Deepinsight-CNN" width="400"/>
+<img src="images/Tuned-Deepinsight-CNN_confusion_matrix.png" alt="Confusion matrix of the Tuned-Deepinsight-CNN" width="400"/>
 </div>
 
 ## Steps to reproduce the experiments
@@ -62,3 +62,31 @@ drive.mount('/content/drive')
 ```	
 6. Run the jupyter notebooks
 
+## Project Structure
+
+```
+.gitignore
+converters/
+    Deepinsight/
+        datasets/
+        models/
+        results/
+        Deepinsight-Basic-CNN.ipynb
+        Deepinsight-Tuned-CNN.ipynb
+        Deepinsight.ipynb
+    IGTD/
+        datasets/
+        models/
+        results/
+        IGTD-Basic-CNN.ipynb
+        IGTD.ipynb
+    REFINED/
+        datasets/
+        models/
+        results/
+        REFINED-Basic-CNN.ipynb
+        REFINED.ipynb
+images/
+README.md
+requirements.txt
+```
