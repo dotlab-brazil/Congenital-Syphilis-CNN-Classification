@@ -1,6 +1,0 @@
-[submodule "converters/IGTD/IGTD"]
-	path = converters/IGTD/IGTD
-	url = https://github.com/zhuyitan/IGTD
-[submodule "converters/Deepinsight/Deepinsight"]
-	path = converters/Deepinsight/Deepinsight
-	url = https://github.com/alok-ai-lab/pyDeepInsight.git

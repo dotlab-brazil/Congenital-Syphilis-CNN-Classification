@@ -1,7 +1,8 @@
 converters/IGTD/datasets/images/Train/data/
 converters/IGTD/datasets/images/Test/data/
-converters/Deepinsight/pyDeepinsight/
+converters/IGTD/IGTD/
 converters/IGTD/Scripts/
+converters/Deepinsight/pyDeepinsight/
 converters/Deepinsight/Keras_Tuner_logs/
 venv310/
 venv376/
