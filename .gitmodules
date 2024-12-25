@@ -1,0 +1,3 @@
+[submodule "converters/IGTD/IGTD"]
+	path = converters/IGTD/IGTD
+	url = https://github.com/zhuyitan/IGTD
